@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Lab</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body> 
+    <nav>
+        <ul>
+            <li><a href="#apaitu">Apa itu Covid-19?</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#Kasus">Kasus</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>   
+    </nav> 
+    <header>
+        <div class="jumbotron">
+        <h1>Website multimedia mengenai Covid-19 di Indonesia</h1>
+        <p>dilengkapi dengan berbagai tips dan berita terkini mengenai covid-19 di Indonesia</p>
+        <p><a href="#apaitu" class="button hover">Mulai Menjelajah</a></p>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+            <article id="apaitu" class="card">
+                <section>
+                <h2>Apa itu Covid-19?</h2>
+                <h3>Simak video berikut ini!</h3>
+                <h4>agar kamu lebih tau mengenai covid-19</h4>
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/BtN-goy9VOY" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                </section>    
+            </article>
+            <article id="tips" class="card">
+                <section>
+                    <h2>Tips</h2>
+                    <h3>Tips Pencegahan</h3>
+                    <img src="assets/image/corona3.jpg" class="featured-image" alt="tips">
+                    <figcaption href="https://www.kemkes.go.id/">source : Kementerian Kesehatan RI</figcaption>
+                </section>
+                <section>
+                    <h3>Tips Untuk Diri dan Keluarga</h3>
+                    <img src="assets/image/germas.jpg" class="featured-image" alt="tips">
+                    <figcaption href="https://www.kemkes.go.id/">source : Kementerian Kesehatan RI</figcaption>  
+                </section>
+            </article>
+            <article id="Kasus" class="card">
+                <section>
+                    <h2>Kasus</h2>
+                    <h3>Update Covid-19 di Indonesia</h3>
+                    <h4>per Kamis, 4 Juni 2020</h4>
+                    <table border="2">
+                        <tr>
+                            <th>Terkonfirmasi</th>
+                            <th>Sembuh</th>
+                            <th>Meninggal</th>
+                        </tr>
+                        <tr>
+                            <td>28.818</td>
+                            <td>8.892</td>
+                            <td>1.721</td>
+                        </tr>
+                    </table>
+                    <a href="https://www.kemkes.go.id/">source : Kementerian Kesehatan RI</a>
+                </section>
+            </article>
+        </div>
+        <aside>
+            <article id="about" class="profile card">
+                <header class="about">
+                <h2>About Profile</h2>
+                <p>Muhammad Ibnu Wijaya</p>
+                <figure>
+                    <img src="assets/image/profile.jpg">
+                </figure>
+                </header>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Live in</th>
+                            <td>Bekasi</td>
+                        </tr>
+                        <tr>
+                            <th>Birth date</th>
+                            <td>July 12th, 1998</td>
+                        </tr>
+                        <tr>
+                            <th>Title</th>
+                            <td>Final Year Student at College</td>
+                        </tr>
+                        <tr>
+                            <th>Call me on</th>
+                            <td>+6281296758821</td>
+                        </tr>
+                        <tr>
+                            <th>Linked in</th>
+                            <td><a href="https://www.linkedin.com/in/mibnuw120798/">mibnuw120798</a></td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+            <article class="profile card">
+                <button onclick="myFunction()">Ubah Warna Teks</button>
+                <script>
+                function myFunction() {
+                    var myNodelist = document.querySelectorAll("h1, h2, h3, h4, a, p");
+                    var i;
+                    for (i = 0; i < myNodelist.length; i++) {
+                      myNodelist[i].style.color = "black";
+                    }
+                }
+                </script>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright &#169; 2020 by Muhammad Ibnu Wijaya</p>
+    </footer>
+</body>
+</html>
